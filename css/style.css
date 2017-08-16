@@ -1,0 +1,126 @@
+body{
+    margin-top: 5px;
+    margin: 5px auto;
+    width: 90%;
+    background-color: rgb(57, 67, 69);
+    font-family: 'Lemonada', cursive;
+/*    font-family: 'Nunito', sans-serif;*/
+}
+
+.result{
+    height: 70px;
+    text-align: center;
+    
+/*    background-color: darkorange;*/
+}
+
+.span{
+    
+/*    background-color: aquamarine;*/
+color: whitesmoke;
+    float: left;
+    width: 50%;
+   
+}
+
+.span2{
+/*    background-color: coral;*/
+    width: 50%;
+/*    margin: 10px auto;*/
+    float: right;
+    
+}
+
+.btt{
+    text-align: center;
+    width: 100%;
+}
+
+.button {
+    font-family: 'Lemonada';
+    margin: 0 auto;
+    background-color: rgb(240, 64, 48);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+/*    text-align: center;*/
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 40%;
+}
+
+.fix{
+    clear: both;
+}
+
+.letters{
+    
+    list-style: none;
+    margin: 30px auto;
+    text-align: center;
+    padding: 0;
+    
+    
+}
+
+
+
+.letters li{
+    cursor: pointer;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border: 1px solid antiquewhite;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.letters li:hover{
+    background-color: rgb(240, 64, 48);
+    
+}
+
+.letters li.disabled{
+    cursor: default;
+    border: 1px solid #666666;
+    color: #666666;
+    
+}
+.letters li.disabled:hover{
+    background-color: rgb(57, 67, 69);
+    
+}
+
+.ans{
+
+}
+
+.ans li{
+    overflow: hidden;
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    width: 40px;
+    margin: 5px;
+    font-size: 26px;
+    line-height: 70px;
+    color: white;
+    border-bottom: 1px solid antiquewhite;
+    
+}
+.ans li.space{
+    border: none;
+}
+
+.img{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+/*    -webkit-filter: drop-shadow( 3px 8px red);filter: drop-shadow(3px 3px 8px red);
+    -webkit-filter: sepia(100%);filter: sepia(100%);*/
+    
+}
+
